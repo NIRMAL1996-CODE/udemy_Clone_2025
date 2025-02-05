@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .container1{
@@ -81,7 +81,7 @@ h1{
   border-radius: 10px;
  }
  .div4{
-  font-size: 20px;
+  font-size: 15px;
  }
  .cartbutton{
   border: none;
@@ -113,15 +113,11 @@ h1{
   padding: 10px;
   margin: 10px;
  }
- .div5 p{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- font-size: 40px;
- }
- .showproduct{
+ .cart-items{
   height: 500px;
-  width: 70%;
+  width: 90%;
   border: 1px solid black;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,3 +148,43 @@ h1{
   display: none;
 }
 
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+  .div1 {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    text-align: left;
+  }
+  #search {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .container2 {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+  .div2 {
+    font-size: 16px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+  }
+  .container4 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div4 img {
+    width: 100%;
+    max-width: 350px;
+  }
+  .div5button, #gobackbutton {
+    width: 100%;
+    font-size: 18px;
+  }
+}
