@@ -11,7 +11,6 @@ const products= [
 { name:"The complete JavaScript Course", price: 500, quantity: 0},
 { name:"Computer Basics & Excel Analytics", price: 1500, quantity: 0}
 ];
-
 // addToCartButton.forEach((button, index)=>{
 // button.addEventListener('click', function(){
 //   cart.push(products[index]);
